@@ -1,56 +1,20 @@
 if (global.in_submarine) {
-    // Movement
-    var hsp = 0;
-    var vsp = 0;
+    var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+    var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+    h += keyboard_check(vk_right) - keyboard_check(vk_left);
+    v += keyboard_check(vk_down) - keyboard_check(vk_up);
 
-    if (keyboard_check(vk_left)) hsp = -4;
-    if (keyboard_check(vk_right)) hsp = 4;
-    if (keyboard_check(vk_up)) vsp = -4;
-    if (keyboard_check(vk_down)) vsp = 4;
+    if (h != 0 || v != 0) {
+        x += h * move_speed;
+        y += v * move_speed;
 
-    x += hsp;
-    y += vsp;
-
-    // Clamp position inside room
-    x = clamp(x, 0, room_width);
-    y = clamp(y, 0, room_height);
-
-    // Set sprite direction
-    if (hsp < 0) {
-        sprite_index = spr_submarine_left;
-    } else if (hsp > 0) {
-        sprite_index = spr_submarine_right;
-    }
-
-    // Shooting towards mouse
-    if (mouse_check_button_pressed(mb_left)) {
-        var bullet = instance_create_layer(x, y, "Instances", obj_bullet);
-        var dir = point_direction(x, y, mouse_x, mouse_y);
-        bullet.direction = dir;
-        bullet.speed = 8;
+        // Sprite facing logic
+        if (h < 0) {
+            sprite_index = spr_sub_left;
+            facing = -1;
+        } else if (h > 0) {
+            sprite_index = spr_sub_right;
+            facing = 1;
+        }
     }
 }
-if (controlled && !global.paused) {
-    var hsp = 0;
-    var vsp = 0;
-
-    if (keyboard_check(vk_left)) hsp = -4;
-    if (keyboard_check(vk_right)) hsp = 4;
-    if (keyboard_check(vk_up)) vsp = -4;
-    if (keyboard_check(vk_down)) vsp = 4;
-
-    x += hsp;
-    y += vsp;
-
-    // Clamp inside room
-    x = clamp(x, 0, room_width);
-    y = clamp(y, 0, room_height);
-
-    // Optional: reduce fuel while moving
-    if (hsp != 0 || vsp != 0) {
-        fuel -= 0.05;
-        fuel = clamp(fuel, 0, max_fuel);
-    }
-}
-	
-

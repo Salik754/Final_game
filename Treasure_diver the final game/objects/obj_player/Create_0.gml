@@ -1,15 +1,12 @@
-// Movement speed
-move_speed = 2;
+// Player Create Event
 
-// Oxygen values
-oxygen = 100;
 max_oxygen = 100;
+oxygen = max_oxygen;
+damage_cooldown = 0; // Time until player can be hurt again
 
-// Damage cooldown timer (frames)
-damage_cooldown = 0;
+move_speed = 3;
 
-// Death flag
-is_dead = false;
-
-// Initial sprite (facing right)
+// Set initial sprite: facing right
 sprite_index = spr_player_right;
+image_blend = c_white;
+image_alpha = 1;

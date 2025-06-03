@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_submarine",
   "spriteId": {
-    "name": "spr_submarine_right",
-    "path": "sprites/spr_submarine_right/spr_submarine_right.yy",
+    "name": "spr_sub_right",
+    "path": "sprites/spr_sub_right/spr_sub_right.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,9 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy_shark","path":"objects/obj_enemy_shark/obj_enemy_shark.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_enemy_jellyfish","path":"objects/obj_enemy_jellyfish/obj_enemy_jellyfish.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
