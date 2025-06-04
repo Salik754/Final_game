@@ -1,12 +1,12 @@
-// Player Create Event
+// Movement
+hsp = 0;
+vsp = 0;
+move_speed = 2;
 
+// Oxygen System
+oxygen = 100;
 max_oxygen = 100;
-oxygen = max_oxygen;
-damage_cooldown = 0; // Time until player can be hurt again
+oxygen_deplete_rate = 0.2;
 
-move_speed = 3;
-
-// Set initial sprite: facing right
-sprite_index = spr_player_right;
-image_blend = c_white;
-image_alpha = 1;
+// Damage cooldown
+damage_cooldown = 0;

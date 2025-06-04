@@ -1,15 +1,22 @@
-if (!global.in_submarine) {
-    // Move player
-    var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-    var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-    h += keyboard_check(vk_right) - keyboard_check(vk_left);
-    v += keyboard_check(vk_down) - keyboard_check(vk_up);
-    x += h * 3;
-    y += v * 3;
+// Movement Input
+hsp = (keyboard_check(vk_right) - keyboard_check(vk_left)) * move_speed;
+vsp = (keyboard_check(vk_down) - keyboard_check(vk_up)) * move_speed;
 
-    // Enter submarine if close and E pressed
-    if (instance_exists(obj_submarine) && point_distance(x, y, obj_submarine.x, obj_submarine.y) < 32 && keyboard_check_pressed(ord("E"))) {
-        global.in_submarine = true;
-        instance_destroy(); // player is destroyed, only sub is controlled now
-    }
+x += hsp;
+y += vsp;
+
+// Oxygen Drain
+oxygen -= oxygen_deplete_rate;
+if (oxygen <= 0) {
+    instance_destroy(); // Will replace with death handler
+}
+
+// Damage Cooldown Timer
+if (damage_cooldown > 0) {
+    damage_cooldown--;
+}
+
+// Flip Sprite Based on Direction
+if (hsp != 0) {
+    sprite_index = hsp > 0 ? spr_player_right : spr_player_left;
 }
