@@ -1,4 +1,5 @@
-// Place this in: obj_ui > Draw GUI Event (Draw event, set it to "Draw GUI")
+// obj_ui > Draw GUI Event (Draw_64.gml)
+// Small, neat bar for 640x360, and correct pause display
 var bar_w = 100, bar_h = 10, bar_x = 10, bar_y = 10;
 
 if (global.paused) {
