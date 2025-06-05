@@ -1,1 +1,1 @@
-room_goto(room_shipwreck);
+room_goto(room_shipwreck	);
