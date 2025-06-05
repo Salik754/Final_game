@@ -51,6 +51,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_558E44DF","properties":[],"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.40845075,"scaleY":0.40845075,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":452.0,"y":1000.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4F1B293C","properties":[],"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.40845072,"scaleY":0.45822787,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":452.0,"y":755.229,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1C956CE8","properties":[],"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4084507,"scaleY":0.4316888,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":452.0,"y":843.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3E3AFAAE","properties":[],"isDnd":false,"objectId":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":64.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7760CC2F","spriteId":{"name":"spr_shipwreck","path":"sprites/spr_shipwreck/spr_shipwreck.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.3043478,"scaleY":1.2956731,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":2.1080322,},
@@ -108,6 +109,7 @@
     {"name":"inst_49B87F93","path":"rooms/room_shipwreck/room_shipwreck.yy",},
     {"name":"inst_3AB9C22","path":"rooms/room_shipwreck/room_shipwreck.yy",},
     {"name":"inst_3482985B","path":"rooms/room_shipwreck/room_shipwreck.yy",},
+    {"name":"inst_3E3AFAAE","path":"rooms/room_shipwreck/room_shipwreck.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

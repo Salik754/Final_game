@@ -8,7 +8,6 @@ var vsp = (keyboard_check(vk_down) - keyboard_check(vk_up)) * move_speed;
 x += hsp;
 y += vsp;
 
-
 // Clamp the player within the room boundaries
 x = clamp(x, 0, room_width - sprite_width);
 y = clamp(y, 0, room_height - sprite_height);
@@ -25,5 +24,6 @@ oxygen -= oxygen_deplete_rate;
 if (oxygen < 0) oxygen = 0;
 
 if (oxygen <= 0) {
+    oxygen_death = true; // set the flag ONLY here
     instance_destroy();
 }
