@@ -3,3 +3,5 @@ global.paused = false;
 global.pause_selected = 0;
 global.last_oxygen = 100;
 global.last_max_oxygen = 100;
+global.in_submarine = false;
+global.coins = 0;
