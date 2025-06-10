@@ -19,7 +19,7 @@
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":0,},
     {"id":{"name":"obj_submarine","path":"objects/obj_submarine/obj_submarine.yy",},"order":1,},
     {"id":{"name":"obj_ui","path":"objects/obj_ui/obj_ui.yy",},"order":0,},
-    {"id":{"name":"obj_","path":"objects/obj_/obj_.yy",},"order":5,},
+    {"id":{"name":"obj_show_message","path":"objects/obj_show_message/obj_show_message.yy",},"order":5,},
     {"id":{"name":"spr_bg_reef","path":"sprites/spr_bg_reef/spr_bg_reef.yy",},"order":14,},
     {"id":{"name":"spr_portal","path":"sprites/spr_portal/spr_portal.yy",},"order":20,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":1,},
