@@ -1,3 +1,6 @@
+if (global.paused) exit;
+
+// Player code goes here
 if (global.in_submarine) {
     var move_speed = 4;
 
@@ -31,5 +34,9 @@ if (global.in_submarine) {
 	if (sub_damage_cooldown > 0) {
     sub_damage_cooldown -= 1;
 	}
+	if (my_fuel <= 0 && !out_of_fuel) {
+    out_of_fuel = true;
+    my_fuel = 0; // Clamp to zero
+}
 
 }

@@ -1,4 +1,7 @@
-// Move up
+
+if (global.paused) exit;
+
+// Player code goes here// Move up
 y -= 0.5;
 
 // Clamp position so bubble never goes out of the room (bottom and top)

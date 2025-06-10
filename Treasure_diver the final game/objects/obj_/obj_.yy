@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_bullet",
-  "spriteId": {
-    "name": "spr_bullet_right",
-    "path": "sprites/spr_bullet_right/spr_bullet_right.yy",
-  },
+  "name": "obj_",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,13 +21,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "🧍‍♂️ Player & Player-related",
-    "path": "folders/Objects/🧍‍♂️ Player & Player-related.yy",
+    "name": "📺 UI & Game Systems",
+    "path": "folders/Objects/📺 UI & Game Systems.yy",
   },
 }
