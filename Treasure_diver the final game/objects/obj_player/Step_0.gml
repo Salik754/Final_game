@@ -1,3 +1,5 @@
+
+
 if (global.paused) exit;
 if (damage_cooldown > 0) {
     damage_cooldown -= 1;

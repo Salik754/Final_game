@@ -1,7 +1,7 @@
 // Shark Step Event
+
 if (global.paused) exit;
 
-// Player code goes here
 // Handle knockback first
 if (knockback_speed > 0) {
     x += lengthdir_x(knockback_speed, knockback_dir);
@@ -22,7 +22,8 @@ if (is_dead) {
     if (image_alpha < 0) image_alpha = 0;
     death_timer -= 1;
     if (death_timer <= 0) instance_destroy();
-} else if (room == room_shipwreck) {
+} 
+else if (room == room_shipwreck) {
     // Only follow submarine in second room
     var target = instance_nearest(x, y, obj_submarine);
     if (target != noone) {

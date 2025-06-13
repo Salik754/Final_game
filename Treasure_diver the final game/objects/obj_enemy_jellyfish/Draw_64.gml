@@ -1,6 +1,3 @@
-// Jellyfish Draw Event
-
-draw_self();
 
 // Health bar only when hit, alive, AND in shipwreck room
 if (show_healthbar && !is_dead && room == room_shipwreck) {
