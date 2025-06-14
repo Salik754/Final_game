@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tentacle",
-  "spriteId": {
-    "name": "spr_tentacle",
-    "path": "sprites/spr_tentacle/spr_tentacle.yy",
-  },
+  "name": "obj_final_level_controller",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,11 +21,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "🦈 Enemies",
-    "path": "folders/Objects/🦈 Enemies.yy",
+    "name": "📺 UI & Game Systems",
+    "path": "folders/Objects/📺 UI & Game Systems.yy",
   },
 }

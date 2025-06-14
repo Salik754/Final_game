@@ -38,6 +38,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D6419B4","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_shark","path":"objects/obj_enemy_shark/obj_enemy_shark.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.66,"scaleY":0.66,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1041.4,"y":200.79999,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5ED785EB","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_jellyfish","path":"objects/obj_enemy_jellyfish/obj_enemy_jellyfish.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":928.0,"y":16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_521015E","properties":[],"isDnd":false,"objectId":{"name":"obj_enemy_jellyfish","path":"objects/obj_enemy_jellyfish/obj_enemy_jellyfish.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1605.0,"y":176.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A5A9A61","properties":[],"isDnd":false,"objectId":{"name":"obj_portal","path":"objects/obj_portal/obj_portal.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.4036,"scaleY":0.40360004,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1763.8,"y":16.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_7760CC2F","spriteId":{"name":"spr_shipwreck","path":"sprites/spr_shipwreck/spr_shipwreck.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.3043478,"scaleY":1.2956731,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":2.1080322,},
@@ -82,6 +83,7 @@
     {"name":"inst_4A0F0DBC","path":"rooms/room_shipwreck/room_shipwreck.yy",},
     {"name":"inst_7F4E127C","path":"rooms/room_shipwreck/room_shipwreck.yy",},
     {"name":"inst_6D6419B4","path":"rooms/room_shipwreck/room_shipwreck.yy",},
+    {"name":"inst_4A5A9A61","path":"rooms/room_shipwreck/room_shipwreck.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

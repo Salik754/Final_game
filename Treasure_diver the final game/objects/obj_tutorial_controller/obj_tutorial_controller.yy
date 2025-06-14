@@ -30,7 +30,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "🧍‍♂️ Player & Player-related",
-    "path": "folders/Objects/🧍‍♂️ Player & Player-related.yy",
+    "name": "📺 UI & Game Systems",
+    "path": "folders/Objects/📺 UI & Game Systems.yy",
   },
 }
