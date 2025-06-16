@@ -1,4 +1,4 @@
-
+draw_self()
 // Health bar only when hit, alive, AND in shipwreck room
 if (show_healthbar && !is_dead && room == room_shipwreck) {
     var bar_width = 40;

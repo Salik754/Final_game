@@ -7,12 +7,8 @@ if (show_controls) {
     var message = 
         "Welcome to Treasure Diver!\n\n" +
         "- Arrow Keys to Move\n" +
-        "- R to Restart\n" +
-        "- P to Pause\n" +
-        "- E to Enter the Submarine\n" +
-        "- Right Click to Shoot (in Submarine)\n" +
-        "- Collect Bubbles to Maintain Oxygen\n" +
-        "- Collect Coins to Maintain Fuel\n\n";
+        "- Press P tp see the pause menu\n" +
+        "- Collect Bubbles to Maintain Oxygen\n\n";
 
     if (!can_continue) {
         var seconds_left = ceil(countdown_timer / room_speed);

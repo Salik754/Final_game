@@ -17,3 +17,4 @@ HEALTHBAR_DISPLAY_TIME = room_speed * 1.5; // 1.5 seconds
 sprite_index = spr_shark_right;
 image_blend = c_white;
 image_alpha = 1;
+

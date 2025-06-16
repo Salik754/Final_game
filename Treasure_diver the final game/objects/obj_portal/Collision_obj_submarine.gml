@@ -1,1 +1,1 @@
-room_goto(final_level)
+room_goto_next()
