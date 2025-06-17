@@ -7,3 +7,7 @@ sub_damage_cooldown = 0;
 out_of_fuel = false;
 sprite_index = spr_sub_right; // Set your default submarine sprite here
 global.show_restart_button = false;
+
+// --- HP initialization ---
+hp = 100;
+max_hp = 100;

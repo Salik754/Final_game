@@ -8,12 +8,16 @@ if (y > room_height) {
     instance_destroy();
 }
 
-// Destroy the submarine if it touches the tentacle
+// Check collision with submarine
 if (instance_exists(obj_submarine)) {
     if (place_meeting(x, y, obj_submarine)) {
-        with (instance_place(x, y, obj_submarine)) {
-            instance_destroy(); // Destroy the submarine
-            // Optionally, you can add an explosion, sound, or trigger game over here
-        }
+        // Set game over state instead of destroying sub
+        global.game_over = true;
+
+        // Optional: Play sound, animation, etc.
+        // audio_play_sound(snd_explosion, 1, false);
+
+        // Optionally, you can destroy the tentacle so it doesn't keep triggering
+        instance_destroy();
     }
 }

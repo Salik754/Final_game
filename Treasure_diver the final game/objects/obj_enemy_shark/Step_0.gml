@@ -23,8 +23,8 @@ if (is_dead) {
     death_timer -= 1;
     if (death_timer <= 0) instance_destroy();
 } 
-else if (room == room_shipwreck) {
-    // Only follow submarine in second room
+else {
+    // Follow submarine in ANY room where shark is placed
     var target = instance_nearest(x, y, obj_submarine);
     if (target != noone) {
         var dir = point_direction(x, y, target.x, target.y);

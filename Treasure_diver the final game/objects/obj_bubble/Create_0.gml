@@ -1,2 +1,2 @@
 // Set how much oxygen this bubble restores
-oxygen_restore = 20;
+oxygen_restore = 5;
